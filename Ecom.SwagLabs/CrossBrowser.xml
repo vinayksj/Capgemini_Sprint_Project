@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="SwagLabs Cross Browser Suite" parallel="false">
+	<test name="Chrome Tests">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="Ecom.SwagLabs.login.Launch_Test" />
+			<class name="Ecom.SwagLabs.login.ValidLogin" />
+			<class name="Ecom.SwagLabs.AddToCart.AddToCart" />
+			<class name="Ecom.SwagLabs.product.ProductValid" />
+			<class name="Ecom.SwagLabs.CheckOut.CheckoutValid" />
+			<class name="Ecom.SwagLabs.CheckOut.CheckoutInvalid" />
+			<class name="Ecom.SwagLabs.product.ProductInvalid" />
+			<class name="Ecom.SwagLabs.login.InvalidLogin" />
+		</classes>
+	</test>
+
+
+	<test name="EdgeTests">
+		<parameter name="browser" value="edge" />
+		<classes>
+			<class name="Ecom.SwagLabs.login.Launch_Test" />
+			<class name="Ecom.SwagLabs.login.ValidLogin" />
+			<class name="Ecom.SwagLabs.AddToCart.AddToCart" />
+			<class name="Ecom.SwagLabs.product.ProductValid" />
+			<class name="Ecom.SwagLabs.CheckOut.CheckoutValid" />
+			<class name="Ecom.SwagLabs.CheckOut.CheckoutInvalid" />
+			<class name="Ecom.SwagLabs.product.ProductInvalid" />
+			<class name="Ecom.SwagLabs.login.InvalidLogin" />
+		</classes>
+	</test>
+
+</suite>

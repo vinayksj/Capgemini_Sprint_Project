@@ -1,0 +1,564 @@
+<html>
+<head>
+<title>TestNG:  Chrome Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Chrome Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>38/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 09 15:50:29 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>118 seconds (118281 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Ecom.SwagLabs.product.ProductInvalid.TC_PROD_04_verifyInvalidProduct()'><b>TC_PROD_04_verifyInvalidProduct</b><br>Test class: Ecom.SwagLabs.product.ProductInvalid<br>Parameters: Bat<br/>
+<a href="#Output-1501846080" onClick='toggleBox("Output-1501846080", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1501846080" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1501846080">
+TC-PROD-04 PASSED - Invalid product not available: Bat<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Ecom.SwagLabs.product.ProductInvalid@4e08711f</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.login.ValidLogin.TC_LOGIN_08_smokeLogin()'><b>TC_LOGIN_08_smokeLogin</b><br>Test class: Ecom.SwagLabs.login.ValidLogin<br/>
+<a href="#Output-398644489" onClick='toggleBox("Output-398644489", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-398644489" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-398644489">
+TC-LOGIN-08 PASSED - Smoke login successful<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Ecom.SwagLabs.login.ValidLogin@7c6908d7</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.product.ProductValid.TC_PROD_08_sortingRegression()'><b>TC_PROD_08_sortingRegression</b><br>Test class: Ecom.SwagLabs.product.ProductValid<br/>
+<a href="#Output-1649096004" onClick='toggleBox("Output-1649096004", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1649096004" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1649096004">
+TC-PROD-08 PASSED - Sorting regression successful<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Ecom.SwagLabs.product.ProductValid@79079097</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.product.ProductInvalid.TC_PROD_04_verifyInvalidProduct()'><b>TC_PROD_04_verifyInvalidProduct</b><br>Test class: Ecom.SwagLabs.product.ProductInvalid<br>Parameters: Laptop<br/>
+<a href="#Output-1307655038" onClick='toggleBox("Output-1307655038", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1307655038" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1307655038">
+TC-PROD-04 PASSED - Invalid product not available: Laptop<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Ecom.SwagLabs.product.ProductInvalid@4e08711f</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.login.InvalidLogin.TC_LOGIN_07_blankPassword()'><b>TC_LOGIN_07_blankPassword</b><br>Test class: Ecom.SwagLabs.login.InvalidLogin<br/>
+<a href="#Output-667197268" onClick='toggleBox("Output-667197268", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-667197268" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-667197268">
+TC-LOGIN-07 PASSED - Blank password rejected<br/>
+Invalid login error displayed successfully<br/>
+Screenshot saved at ./ss/saucedemo4.png<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Ecom.SwagLabs.login.InvalidLogin@bcec361</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.CheckOut.CheckoutValid.TC_CHECKOUT_01_completePurchase()'><b>TC_CHECKOUT_01_completePurchase</b><br>Test class: Ecom.SwagLabs.CheckOut.CheckoutValid<br>Parameters: Arjun, Reddy, 500001<br/>
+<a href="#Output-1221872454" onClick='toggleBox("Output-1221872454", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1221872454" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1221872454">
+Product in Cart: Sauce Labs Backpack<br/>
+Purchase Successful: Thank you for your order!<br/>
+Product Successfully Purchased - Sauce Labs Backpack<br/>
+Checkout Data: Arjun | Reddy | 500001<br/>
+TC-CHECKOUT-01 PASSED - Purchase completed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Ecom.SwagLabs.CheckOut.CheckoutValid@4d1c00d0</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.product.ProductInvalid.TC_PROD_04_verifyInvalidProduct()'><b>TC_PROD_04_verifyInvalidProduct</b><br>Test class: Ecom.SwagLabs.product.ProductInvalid<br>Parameters: Shoees<br/>
+<a href="#Output-633366676" onClick='toggleBox("Output-633366676", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-633366676" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-633366676">
+TC-PROD-04 PASSED - Invalid product not available: Shoees<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Ecom.SwagLabs.product.ProductInvalid@4e08711f</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.product.ProductInvalid.TC_PROD_04_verifyInvalidProduct()'><b>TC_PROD_04_verifyInvalidProduct</b><br>Test class: Ecom.SwagLabs.product.ProductInvalid<br>Parameters: crocs<br/>
+<a href="#Output-1467448355" onClick='toggleBox("Output-1467448355", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1467448355" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1467448355">
+TC-PROD-04 PASSED - Invalid product not available: crocs<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Ecom.SwagLabs.product.ProductInvalid@4e08711f</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.CheckOut.CheckoutInvalid.TC_CHECKOUT_02_invalidCheckout()'><b>TC_CHECKOUT_02_invalidCheckout</b><br>Test class: Ecom.SwagLabs.CheckOut.CheckoutInvalid<br>Parameters: , Kumar, 583101<br/>
+<a href="#Output-1811235424" onClick='toggleBox("Output-1811235424", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1811235424" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1811235424">
+Invalid Checkout Data:  | Kumar | 583101<br/>
+TC-CHECKOUT-02 PASSED - Invalid checkout data rejected:  | Kumar | 583101<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Ecom.SwagLabs.CheckOut.CheckoutInvalid@4b2bac3f</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.login.ValidLogin.TC_LOGIN_03_loginToProductPage()'><b>TC_LOGIN_03_loginToProductPage</b><br>Test class: Ecom.SwagLabs.login.ValidLogin<br/>
+<a href="#Output-749362556" onClick='toggleBox("Output-749362556", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-749362556" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-749362556">
+TC-LOGIN-03 PASSED - Login navigated to Product Page<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>Ecom.SwagLabs.login.ValidLogin@7c6908d7</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.CheckOut.CheckoutInvalid.TC_CHECKOUT_02_invalidCheckout()'><b>TC_CHECKOUT_02_invalidCheckout</b><br>Test class: Ecom.SwagLabs.CheckOut.CheckoutInvalid<br>Parameters: Vinay, , <br/>
+<a href="#Output-571267668" onClick='toggleBox("Output-571267668", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-571267668" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-571267668">
+Invalid Checkout Data: Vinay |  | <br/>
+TC-CHECKOUT-02 PASSED - Invalid checkout data rejected: Vinay |  | <br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Ecom.SwagLabs.CheckOut.CheckoutInvalid@4b2bac3f</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.product.ProductValid.TC_PROD_07_verifySortDropdownOptions()'><b>TC_PROD_07_verifySortDropdownOptions</b><br>Test class: Ecom.SwagLabs.product.ProductValid<br/>
+<a href="#Output-142871704" onClick='toggleBox("Output-142871704", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-142871704" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-142871704">
+Name (A to Z) selected successfully. First Product: Sauce Labs Backpack<br/>
+Name (Z to A) selected successfully. First Product: Test.allTheThings() T-Shirt (Red)<br/>
+Price (low to high) selected successfully. First Product: Sauce Labs Onesie<br/>
+Price (high to low) selected successfully. First Product: Sauce Labs Fleece Jacket<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Ecom.SwagLabs.product.ProductValid@79079097</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.login.InvalidLogin.TC_LOGIN_05_invalidPassword()'><b>TC_LOGIN_05_invalidPassword</b><br>Test class: Ecom.SwagLabs.login.InvalidLogin<br/>
+<a href="#Output-144699459" onClick='toggleBox("Output-144699459", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-144699459" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-144699459">
+TC-LOGIN-05 PASSED - Invalid password rejected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Ecom.SwagLabs.login.InvalidLogin@bcec361</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.CheckOut.CheckoutValid.TC_CHECKOUT_01_completePurchase()'><b>TC_CHECKOUT_01_completePurchase</b><br>Test class: Ecom.SwagLabs.CheckOut.CheckoutValid<br>Parameters: Rahul, Sharma, 560001<br/>
+<a href="#Output-1888353808" onClick='toggleBox("Output-1888353808", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1888353808" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1888353808">
+Product in Cart: Sauce Labs Backpack<br/>
+Purchase Successful: Thank you for your order!<br/>
+Product Successfully Purchased - Sauce Labs Backpack<br/>
+Checkout Data: Rahul | Sharma | 560001<br/>
+TC-CHECKOUT-01 PASSED - Purchase completed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Ecom.SwagLabs.CheckOut.CheckoutValid@4d1c00d0</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.product.ProductValid.TC_PROD_01_verifyProductsVisible()'><b>TC_PROD_01_verifyProductsVisible</b><br>Test class: Ecom.SwagLabs.product.ProductValid<br/>
+<a href="#Output-1010306008" onClick='toggleBox("Output-1010306008", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1010306008" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1010306008">
+TC-PROD-01 PASSED - Products are displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Ecom.SwagLabs.product.ProductValid@79079097</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.product.ProductInvalid.TC_PROD_04_verifyInvalidProduct()'><b>TC_PROD_04_verifyInvalidProduct</b><br>Test class: Ecom.SwagLabs.product.ProductInvalid<br>Parameters: Bag<br/>
+<a href="#Output-1271859374" onClick='toggleBox("Output-1271859374", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1271859374" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1271859374">
+TC-PROD-04 PASSED - Invalid product not available: Bag<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Ecom.SwagLabs.product.ProductInvalid@4e08711f</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.login.ValidLogin.TC_LOGIN_09_regressionLogin()'><b>TC_LOGIN_09_regressionLogin</b><br>Test class: Ecom.SwagLabs.login.ValidLogin<br/>
+<a href="#Output-174515584" onClick='toggleBox("Output-174515584", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-174515584" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-174515584">
+TC-LOGIN-09 PASSED - Login regression successful<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Ecom.SwagLabs.login.ValidLogin@7c6908d7</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.product.ProductValid.TC_PROD_03_productToCartIntegration()'><b>TC_PROD_03_productToCartIntegration</b><br>Test class: Ecom.SwagLabs.product.ProductValid<br/>
+<a href="#Output-1108730163" onClick='toggleBox("Output-1108730163", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1108730163" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1108730163">
+TC-PROD-03 PASSED - Product to Cart integration successful<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Ecom.SwagLabs.product.ProductValid@79079097</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.CheckOut.CheckoutValid.TC_CHECKOUT_01_completePurchase()'><b>TC_CHECKOUT_01_completePurchase</b><br>Test class: Ecom.SwagLabs.CheckOut.CheckoutValid<br>Parameters: Priya, Patel, 400001<br/>
+<a href="#Output-539169668" onClick='toggleBox("Output-539169668", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-539169668" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-539169668">
+Product in Cart: Sauce Labs Backpack<br/>
+Purchase Successful: Thank you for your order!<br/>
+Product Successfully Purchased - Sauce Labs Backpack<br/>
+Checkout Data: Priya | Patel | 400001<br/>
+TC-CHECKOUT-01 PASSED - Purchase completed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Ecom.SwagLabs.CheckOut.CheckoutValid@4d1c00d0</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.product.ProductValid.TC_PROD_06_productSmoke()'><b>TC_PROD_06_productSmoke</b><br>Test class: Ecom.SwagLabs.product.ProductValid<br/>
+<a href="#Output-507377172" onClick='toggleBox("Output-507377172", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-507377172" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-507377172">
+TC-PROD-06 PASSED - Product smoke test successful<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Ecom.SwagLabs.product.ProductValid@79079097</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.login.ValidLogin.TC_LOGIN_02_validStandardUser()'><b>TC_LOGIN_02_validStandardUser</b><br>Test class: Ecom.SwagLabs.login.ValidLogin<br/>
+<a href="#Output-557568981" onClick='toggleBox("Output-557568981", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-557568981" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-557568981">
+TC-LOGIN-02 PASSED - Standard user login successful<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Ecom.SwagLabs.login.ValidLogin@7c6908d7</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.CheckOut.CheckoutValid.TC_CHECKOUT_01_completePurchase()'><b>TC_CHECKOUT_01_completePurchase</b><br>Test class: Ecom.SwagLabs.CheckOut.CheckoutValid<br>Parameters: Kiran, Kumar, 600001<br/>
+<a href="#Output-644323208" onClick='toggleBox("Output-644323208", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-644323208" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-644323208">
+Product in Cart: Sauce Labs Backpack<br/>
+Purchase Successful: Thank you for your order!<br/>
+Product Successfully Purchased - Sauce Labs Backpack<br/>
+Checkout Data: Kiran | Kumar | 600001<br/>
+TC-CHECKOUT-01 PASSED - Purchase completed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Ecom.SwagLabs.CheckOut.CheckoutValid@4d1c00d0</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.product.ProductInvalid.TC_PROD_04_verifyInvalidProduct()'><b>TC_PROD_04_verifyInvalidProduct</b><br>Test class: Ecom.SwagLabs.product.ProductInvalid<br>Parameters: Shirt<br/>
+<a href="#Output-1925281265" onClick='toggleBox("Output-1925281265", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1925281265" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1925281265">
+TC-PROD-04 PASSED - Invalid product not available: Shirt<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Ecom.SwagLabs.product.ProductInvalid@4e08711f</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.AddToCart.AddToCart.TC_PUR_02_cartToCheckout()'><b>TC_PUR_02_cartToCheckout</b><br>Test class: Ecom.SwagLabs.AddToCart.AddToCart<br/>
+<a href="#Output-673412242" onClick='toggleBox("Output-673412242", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-673412242" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-673412242">
+TC-PUR-02 PASSED - Cart to Checkout integration successful: Sauce Labs Backpack<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Ecom.SwagLabs.AddToCart.AddToCart@3bf7ca37</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.CheckOut.CheckoutValid.TC_CHECKOUT_01_completePurchase()'><b>TC_CHECKOUT_01_completePurchase</b><br>Test class: Ecom.SwagLabs.CheckOut.CheckoutValid<br>Parameters: Ananya, Singh, 110001<br/>
+<a href="#Output-719518227" onClick='toggleBox("Output-719518227", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-719518227" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-719518227">
+Product in Cart: Sauce Labs Backpack<br/>
+Purchase Successful: Thank you for your order!<br/>
+Product Successfully Purchased - Sauce Labs Backpack<br/>
+Checkout Data: Ananya | Singh | 110001<br/>
+TC-CHECKOUT-01 PASSED - Purchase completed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Ecom.SwagLabs.CheckOut.CheckoutValid@4d1c00d0</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.CheckOut.CheckoutInvalid.TC_CHECKOUT_02_invalidCheckout()'><b>TC_CHECKOUT_02_invalidCheckout</b><br>Test class: Ecom.SwagLabs.CheckOut.CheckoutInvalid<br>Parameters: , Kumar, <br/>
+<a href="#Output-1583169772" onClick='toggleBox("Output-1583169772", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1583169772" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1583169772">
+Invalid Checkout Data:  | Kumar | <br/>
+TC-CHECKOUT-02 PASSED - Invalid checkout data rejected:  | Kumar | <br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Ecom.SwagLabs.CheckOut.CheckoutInvalid@4b2bac3f</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.product.ProductValid.TC_PROD_02_addProductToCart()'><b>TC_PROD_02_addProductToCart</b><br>Test class: Ecom.SwagLabs.product.ProductValid<br/>
+<a href="#Output-1752220610" onClick='toggleBox("Output-1752220610", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1752220610" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1752220610">
+TC-PROD-02 PASSED - Product added to cart successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Ecom.SwagLabs.product.ProductValid@79079097</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.login.ValidLogin.TC_LOGIN_01_verifyLoginControls()'><b>TC_LOGIN_01_verifyLoginControls</b><br>Test class: Ecom.SwagLabs.login.ValidLogin<br/>
+<a href="#Output-648176342" onClick='toggleBox("Output-648176342", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-648176342" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-648176342">
+TC-LOGIN-01 PASSED - Login controls displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Ecom.SwagLabs.login.ValidLogin@7c6908d7</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.CheckOut.CheckoutInvalid.TC_CHECKOUT_02_invalidCheckout()'><b>TC_CHECKOUT_02_invalidCheckout</b><br>Test class: Ecom.SwagLabs.CheckOut.CheckoutInvalid<br>Parameters: Vinay, , 583101<br/>
+<a href="#Output-1307131613" onClick='toggleBox("Output-1307131613", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1307131613" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1307131613">
+Invalid Checkout Data: Vinay |  | 583101<br/>
+TC-CHECKOUT-02 PASSED - Invalid checkout data rejected: Vinay |  | 583101<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Ecom.SwagLabs.CheckOut.CheckoutInvalid@4b2bac3f</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.CheckOut.CheckoutInvalid.TC_CHECKOUT_02_invalidCheckout()'><b>TC_CHECKOUT_02_invalidCheckout</b><br>Test class: Ecom.SwagLabs.CheckOut.CheckoutInvalid<br>Parameters: , , 583101<br/>
+<a href="#Output-1124203065" onClick='toggleBox("Output-1124203065", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1124203065" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1124203065">
+Invalid Checkout Data:  |  | 583101<br/>
+TC-CHECKOUT-02 PASSED - Invalid checkout data rejected:  |  | 583101<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Ecom.SwagLabs.CheckOut.CheckoutInvalid@4b2bac3f</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.product.ProductValid.TC_PROD_09_addAfterSorting()'><b>TC_PROD_09_addAfterSorting</b><br>Test class: Ecom.SwagLabs.product.ProductValid<br/>
+<a href="#Output-190245996" onClick='toggleBox("Output-190245996", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-190245996" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-190245996">
+TC-PROD-09 PASSED - Add to Cart after sorting successful<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Ecom.SwagLabs.product.ProductValid@79079097</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.CheckOut.CheckoutValid.TC_CHECKOUT_01_completePurchase()'><b>TC_CHECKOUT_01_completePurchase</b><br>Test class: Ecom.SwagLabs.CheckOut.CheckoutValid<br>Parameters: Vinay, Kumar, 583101<br/>
+<a href="#Output-1910687448" onClick='toggleBox("Output-1910687448", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1910687448" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1910687448">
+Product in Cart: Sauce Labs Backpack<br/>
+Purchase Successful: Thank you for your order!<br/>
+Product Successfully Purchased - Sauce Labs Backpack<br/>
+Checkout Data: Vinay | Kumar | 583101<br/>
+TC-CHECKOUT-01 PASSED - Purchase completed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Ecom.SwagLabs.CheckOut.CheckoutValid@4d1c00d0</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.product.ProductInvalid.TC_PROD_04_verifyInvalidProduct()'><b>TC_PROD_04_verifyInvalidProduct</b><br>Test class: Ecom.SwagLabs.product.ProductInvalid<br>Parameters: Mobiles<br/>
+<a href="#Output-100194946" onClick='toggleBox("Output-100194946", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-100194946" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-100194946">
+TC-PROD-04 PASSED - Invalid product not available: Mobiles<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Ecom.SwagLabs.product.ProductInvalid@4e08711f</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.login.InvalidLogin.TC_LOGIN_06_blankUsername()'><b>TC_LOGIN_06_blankUsername</b><br>Test class: Ecom.SwagLabs.login.InvalidLogin<br/>
+<a href="#Output-1323418266" onClick='toggleBox("Output-1323418266", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1323418266" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1323418266">
+TC-LOGIN-06 PASSED - Blank username rejected<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Ecom.SwagLabs.login.InvalidLogin@bcec361</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.login.Launch_Test.browserLaunchTest()'><b>browserLaunchTest</b><br>Test class: Ecom.SwagLabs.login.Launch_Test</td>
+<td></td>
+<td>0</td>
+<td>Ecom.SwagLabs.login.Launch_Test@4c402120</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.AddToCart.AddToCart.TC_PUR_01_verifyProductAddedToCart()'><b>TC_PUR_01_verifyProductAddedToCart</b><br>Test class: Ecom.SwagLabs.AddToCart.AddToCart<br/>
+<a href="#Output-1252138909" onClick='toggleBox("Output-1252138909", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1252138909" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1252138909">
+TC-PUR-01 PASSED - Product verified in Cart: Sauce Labs Backpack<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Ecom.SwagLabs.AddToCart.AddToCart@3bf7ca37</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.CheckOut.CheckoutInvalid.TC_CHECKOUT_02_invalidCheckout()'><b>TC_CHECKOUT_02_invalidCheckout</b><br>Test class: Ecom.SwagLabs.CheckOut.CheckoutInvalid<br>Parameters: Vinay, Kumar, <br/>
+<a href="#Output-1692202851" onClick='toggleBox("Output-1692202851", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1692202851" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1692202851">
+Invalid Checkout Data: Vinay | Kumar | <br/>
+TC-CHECKOUT-02 PASSED - Invalid checkout data rejected: Vinay | Kumar | <br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Ecom.SwagLabs.CheckOut.CheckoutInvalid@4b2bac3f</td></tr>
+<tr>
+<td title='Ecom.SwagLabs.login.InvalidLogin.TC_LOGIN_04_invalidUsername()'><b>TC_LOGIN_04_invalidUsername</b><br>Test class: Ecom.SwagLabs.login.InvalidLogin<br/>
+<a href="#Output-114559531" onClick='toggleBox("Output-114559531", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-114559531" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-114559531">
+TC-LOGIN-04 PASSED - Invalid username rejected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Ecom.SwagLabs.login.InvalidLogin@bcec361</td></tr>
+</table><p>
+</body>
+</html>

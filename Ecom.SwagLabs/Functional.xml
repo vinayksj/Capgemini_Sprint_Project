@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="functional"></include>
+		</run>
+	</groups>
+	<test thread-count="5" name="Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="Ecom.SwagLabs.login.Launch_Test" />
+			<class name="Ecom.SwagLabs.login.ValidLogin" />
+			<class name="Ecom.SwagLabs.AddToCart.AddToCart" />
+			<class name="Ecom.SwagLabs.product.ProductValid" />
+			<class name="Ecom.SwagLabs.CheckOut.CheckoutValid" />
+			<class name="Ecom.SwagLabs.CheckOut.CheckoutInvalid" />
+			<class name="Ecom.SwagLabs.product.ProductInvalid" />
+			<class name="Ecom.SwagLabs.login.InvalidLogin" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

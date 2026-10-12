@@ -3,19 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Ecom.SwagLabs.product.ProductValid">
+      <class name="Ecom.SwagLabs.AddToCart.AddToCart">
         <methods>
-          <include name="TC_PROD_06_productSmoke"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="TC_PROD_07_verifySortDropdownOptions"/>
-          <include name="TC_PROD_03_productToCartIntegration"/>
-          <include name="TC_PROD_09_addAfterSorting"/>
-          <include name="TC_PROD_02_addProductToCart"/>
-          <include name="TC_PROD_01_verifyProductsVisible"/>
-          <include name="TC_PROD_08_sortingRegression"/>
+          <include name="TC_PUR_02_cartToCheckout"/>
         </methods>
-      </class> <!-- Ecom.SwagLabs.product.ProductValid -->
+      </class> <!-- Ecom.SwagLabs.AddToCart.AddToCart -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

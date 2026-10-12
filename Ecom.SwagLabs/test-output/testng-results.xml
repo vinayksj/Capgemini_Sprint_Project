@@ -1,32 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="19" total="22" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[TC-LOGIN-09 PASSED - Login regression successful]]>
+      <![CDATA[Logging in with user: standard_user]]>
     </line>
     <line>
-      <![CDATA[TC-PROD-08 PASSED - Sorting regression successful]]>
+      <![CDATA[TC-PUR-01 PASSED - Product verified in Cart: Sauce Labs Backpack]]>
     </line>
     <line>
-      <![CDATA[TC-PROD-09 PASSED - Add to Cart after sorting successful]]>
+      <![CDATA[Logging in with user: standard_user]]>
+    </line>
+    <line>
+      <![CDATA[TC-PUR-02 PASSED - Cart to Checkout integration successful: Sauce Labs Backpack]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-10-12T11:56:05 IST" name="Suite" finished-at="2026-10-12T11:56:15 IST" duration-ms="10285">
+  <suite started-at="2026-10-12T12:54:33 IST" name="Default suite" finished-at="2026-10-12T12:54:41 IST" duration-ms="8172">
     <groups>
+      <group name="functional">
+        <method signature="AddToCart.TC_PUR_01_verifyProductAddedToCart()[pri:0, instance:Ecom.SwagLabs.AddToCart.AddToCart@6c6cb480]" name="TC_PUR_01_verifyProductAddedToCart" class="Ecom.SwagLabs.AddToCart.AddToCart"/>
+      </group> <!-- functional -->
       <group name="pos">
-        <method signature="ValidLogin.TC_LOGIN_09_regressionLogin()[pri:0, instance:Ecom.SwagLabs.login.ValidLogin@2a5c8d3f]" name="TC_LOGIN_09_regressionLogin" class="Ecom.SwagLabs.login.ValidLogin"/>
-        <method signature="ProductValid.TC_PROD_08_sortingRegression()[pri:0, instance:Ecom.SwagLabs.product.ProductValid@b3ca52e]" name="TC_PROD_08_sortingRegression" class="Ecom.SwagLabs.product.ProductValid"/>
-        <method signature="ProductValid.TC_PROD_09_addAfterSorting()[pri:0, instance:Ecom.SwagLabs.product.ProductValid@b3ca52e]" name="TC_PROD_09_addAfterSorting" class="Ecom.SwagLabs.product.ProductValid"/>
+        <method signature="AddToCart.TC_PUR_01_verifyProductAddedToCart()[pri:0, instance:Ecom.SwagLabs.AddToCart.AddToCart@6c6cb480]" name="TC_PUR_01_verifyProductAddedToCart" class="Ecom.SwagLabs.AddToCart.AddToCart"/>
+        <method signature="AddToCart.TC_PUR_02_cartToCheckout()[pri:0, instance:Ecom.SwagLabs.AddToCart.AddToCart@6c6cb480]" name="TC_PUR_02_cartToCheckout" class="Ecom.SwagLabs.AddToCart.AddToCart"/>
       </group> <!-- pos -->
-      <group name="regression">
-        <method signature="ValidLogin.TC_LOGIN_09_regressionLogin()[pri:0, instance:Ecom.SwagLabs.login.ValidLogin@2a5c8d3f]" name="TC_LOGIN_09_regressionLogin" class="Ecom.SwagLabs.login.ValidLogin"/>
-        <method signature="ProductValid.TC_PROD_08_sortingRegression()[pri:0, instance:Ecom.SwagLabs.product.ProductValid@b3ca52e]" name="TC_PROD_08_sortingRegression" class="Ecom.SwagLabs.product.ProductValid"/>
-        <method signature="ProductValid.TC_PROD_09_addAfterSorting()[pri:0, instance:Ecom.SwagLabs.product.ProductValid@b3ca52e]" name="TC_PROD_09_addAfterSorting" class="Ecom.SwagLabs.product.ProductValid"/>
-      </group> <!-- regression -->
+      <group name="integration">
+        <method signature="AddToCart.TC_PUR_02_cartToCheckout()[pri:0, instance:Ecom.SwagLabs.AddToCart.AddToCart@6c6cb480]" name="TC_PUR_02_cartToCheckout" class="Ecom.SwagLabs.AddToCart.AddToCart"/>
+      </group> <!-- integration -->
     </groups>
-    <test started-at="2026-10-12T11:56:05 IST" name="Test" finished-at="2026-10-12T11:56:15 IST" duration-ms="10285">
-      <class name="Ecom.SwagLabs.product.ProductValid">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Ecom.SwagLabs.product.ProductValid@b3ca52e]" started-at="2026-10-12T11:56:09 IST" name="setup" finished-at="2026-10-12T11:56:11 IST" duration-ms="1926" status="PASS">
+    <test started-at="2026-10-12T12:54:33 IST" name="Default test" finished-at="2026-10-12T12:54:41 IST" duration-ms="8172">
+      <class name="Ecom.SwagLabs.AddToCart.AddToCart">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Ecom.SwagLabs.AddToCart.AddToCart@6c6cb480]" started-at="2026-10-12T12:54:33 IST" name="setup" finished-at="2026-10-12T12:54:37 IST" duration-ms="3660" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,18 +40,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_PROD_08_sortingRegression()[pri:0, instance:Ecom.SwagLabs.product.ProductValid@b3ca52e]" started-at="2026-10-12T11:56:11 IST" name="TC_PROD_08_sortingRegression" finished-at="2026-10-12T11:56:12 IST" duration-ms="858" status="PASS">
+        <test-method signature="TC_PUR_01_verifyProductAddedToCart()[pri:0, instance:Ecom.SwagLabs.AddToCart.AddToCart@6c6cb480]" started-at="2026-10-12T12:54:37 IST" name="TC_PUR_01_verifyProductAddedToCart" finished-at="2026-10-12T12:54:38 IST" duration-ms="1041" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[TC-PROD-08 PASSED - Sorting regression successful]]>
+              <![CDATA[Logging in with user: standard_user]]>
+            </line>
+            <line>
+              <![CDATA[TC-PUR-01 PASSED - Product verified in Cart: Sauce Labs Backpack]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TC_PROD_08_sortingRegression -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ecom.SwagLabs.product.ProductValid@b3ca52e]" started-at="2026-10-12T11:56:12 IST" name="tearDown" finished-at="2026-10-12T11:56:12 IST" duration-ms="172" status="PASS">
+        </test-method> <!-- TC_PUR_01_verifyProductAddedToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ecom.SwagLabs.AddToCart.AddToCart@6c6cb480]" started-at="2026-10-12T12:54:38 IST" name="tearDown" finished-at="2026-10-12T12:54:38 IST" duration-ms="164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Ecom.SwagLabs.product.ProductValid@b3ca52e]" started-at="2026-10-12T11:56:12 IST" name="setup" finished-at="2026-10-12T11:56:14 IST" duration-ms="1893" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Ecom.SwagLabs.AddToCart.AddToCart@6c6cb480]" started-at="2026-10-12T12:54:38 IST" name="setup" finished-at="2026-10-12T12:54:40 IST" duration-ms="2373" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,42 +65,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_PROD_09_addAfterSorting()[pri:0, instance:Ecom.SwagLabs.product.ProductValid@b3ca52e]" started-at="2026-10-12T11:56:14 IST" name="TC_PROD_09_addAfterSorting" finished-at="2026-10-12T11:56:15 IST" duration-ms="761" status="PASS">
+        <test-method signature="TC_PUR_02_cartToCheckout()[pri:0, instance:Ecom.SwagLabs.AddToCart.AddToCart@6c6cb480]" started-at="2026-10-12T12:54:40 IST" name="TC_PUR_02_cartToCheckout" finished-at="2026-10-12T12:54:41 IST" duration-ms="718" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[TC-PROD-09 PASSED - Add to Cart after sorting successful]]>
+              <![CDATA[Logging in with user: standard_user]]>
+            </line>
+            <line>
+              <![CDATA[TC-PUR-02 PASSED - Cart to Checkout integration successful: Sauce Labs Backpack]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TC_PROD_09_addAfterSorting -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ecom.SwagLabs.product.ProductValid@b3ca52e]" started-at="2026-10-12T11:56:15 IST" name="tearDown" finished-at="2026-10-12T11:56:15 IST" duration-ms="167" status="PASS">
+        </test-method> <!-- TC_PUR_02_cartToCheckout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ecom.SwagLabs.AddToCart.AddToCart@6c6cb480]" started-at="2026-10-12T12:54:41 IST" name="tearDown" finished-at="2026-10-12T12:54:41 IST" duration-ms="159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Ecom.SwagLabs.product.ProductValid -->
-      <class name="Ecom.SwagLabs.login.ValidLogin">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Ecom.SwagLabs.login.ValidLogin@2a5c8d3f]" started-at="2026-10-12T11:56:05 IST" name="setup" finished-at="2026-10-12T11:56:08 IST" duration-ms="3292" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC_LOGIN_09_regressionLogin()[pri:0, instance:Ecom.SwagLabs.login.ValidLogin@2a5c8d3f]" started-at="2026-10-12T11:56:08 IST" name="TC_LOGIN_09_regressionLogin" finished-at="2026-10-12T11:56:09 IST" duration-ms="965" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[TC-LOGIN-09 PASSED - Login regression successful]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TC_LOGIN_09_regressionLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ecom.SwagLabs.login.ValidLogin@2a5c8d3f]" started-at="2026-10-12T11:56:09 IST" name="tearDown" finished-at="2026-10-12T11:56:09 IST" duration-ms="183" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Ecom.SwagLabs.login.ValidLogin -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- Ecom.SwagLabs.AddToCart.AddToCart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
